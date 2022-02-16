@@ -1,0 +1,93 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/Home/Home",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": false,
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+
+    }, {
+      "path": "pages/Promotion/Promotion",
+      "style": {
+        "navigationBarTitleText": "推广赚钱",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/My/My",
+      "style": {
+        "navigationBarTitleText": "个人中心",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/Login/Login",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    }, {
+      "path": "pages/Login/Register",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    }, {
+      "path": "pages/Login/FindPwd",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+
+    }, {
+      "path": "pages/Order/Order",
+      "style": {
+        "navigationBarTitleText": "服务商品",
+        "enablePullDownRefresh": false
+      }
+
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3187F6",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/Home/Home",
+        "iconPath": "static/images/tabbar/home.png",
+        "selectedIconPath": "static/images/tabbar/home_s.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/Promotion/Promotion",
+        "iconPath": "static/images/tabbar/promotion.png",
+        "selectedIconPath": "static/images/tabbar/promotion_s.png",
+        "text": "推广赚钱"
+      },
+      {
+        "pagePath": "pages/My/My",
+        "iconPath": "static/images/tabbar/my.png",
+        "selectedIconPath": "static/images/tabbar/my_s.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}
